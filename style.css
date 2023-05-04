@@ -1,0 +1,643 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gotham, Verdana, sans-serif;
+    /* border: 1px solid red; */
+}
+
+.full-size {
+    display: flex;
+    background-color: black;
+    padding: 20px 50px 10px 150px;
+
+}
+
+nav img {
+    width: 80px;
+    position: absolute;
+    top: 0;
+}
+
+.menu-list {
+
+
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    padding: 20px 250px 0px 60px;
+
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-right: 50px;
+}
+
+.menu-section {
+    width: 100%;
+}
+
+.nav-1 input {
+    width: 250px;
+    padding: 5px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.nav-1 button {
+    background-color: transparent;
+
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.fa-solid {
+    margin-right: 8px;
+
+}
+
+.nav-1 button a {
+    text-decoration: none;
+
+    color: white;
+
+}
+
+.nav-1 {
+    display: flex;
+    justify-content: end;
+}
+
+.hero-section {
+    width: 100%;
+    height: 70vh;
+    background-image: url(./hero\ img1.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 200px;
+}
+
+.Text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+}
+
+.text-section h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-section p {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+.text-section span {
+    width: 110%;
+    display: flex;
+    margin-left: -20px;
+    justify-content: space-between;
+
+}
+
+.text-section button {
+    padding: 8px 50px;
+    font-size: 15px;
+    font-weight: 550;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.card-item {
+    width: 100%;
+    min-height: 80vh;
+    padding: 20px 150px;
+}
+
+.cart {
+
+    margin-top: 10px;
+    display: flex;
+    /* grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 25px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-item h1 {
+    font-weight: 400;
+}
+
+.item {
+    width: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item button {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(107, 107, 107);
+    color: rgb(243, 242, 242);
+}
+
+.item h5 {
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 550;
+
+}
+
+.item p {
+    padding: 5px;
+
+    color: rgb(170, 170, 170);
+
+}
+
+.item img {
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+
+/* tv section  */
+
+.tv-section {
+    background-image: url(./hero\ 2.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tv-section span {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tv-section h1 {
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.tv-section p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.tv-section button {
+    padding: 8px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.camera-girl-section {
+    width: 100%;
+    height: 70vh;
+    background-image: url(./camera\ girl.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 100px;
+}
+
+.camera-girl-section span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.camera-girl-section h1 {
+    text-align: center;
+    line-height: 45px;
+
+}
+
+.camera-girl-section p {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.camera-girl-section button {
+    margin-top: 10px;
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+
+
+
+.icon-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+ 
+    min-height: 100px;
+    background-color: rgb(36, 36, 36);
+}
+
+.icon-footer span {
+ 
+    width: 50%;
+}
+
+.email {
+  
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-footer span i {
+    color: rgb(78, 77, 77);
+    font-size: 35px;
+    margin-right: 25px;
+}
+
+.email i {
+    color: rgb(78, 77, 77);
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.email a {
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(78, 77, 77);
+
+}
+
+/* footer  */
+
+
+.support-section {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    min-height: 50vh;
+    flex-wrap: wrap;
+
+
+}
+
+footer h5 {
+    color: white;
+    cursor: pointer;
+}
+
+footer ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+footer li {
+    margin-top: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    font-size: 15px;
+}
+
+.bose {
+    width: 400px;
+}
+
+.support {
+    width: 400px;
+}
+
+.privacy {
+    width: 400px;
+}
+
+
+.since {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px 150px;
+    position: relative;
+}
+
+.since img {
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+}
+
+.bose-last {
+    width: 100%;
+    min-height: 15vh;
+    margin-left: 100px;
+}
+
+.bose-last span {
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.bose-last span p {
+    margin-right: 10px;
+
+}
+
+.bose-2023 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+/* .responsive section  */
+
+
+.responsive {
+    background-color: black;
+    display: flex;
+    padding: 30px;
+    display: none;
+}
+
+.responsive i {
+    font-size: 20px;
+    color: white;
+}
+
+.mobile-bose-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-bose-logo img {
+    width: 150px;
+}
+
+.Text-responsive {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(1, 1, 1);
+    color: white;
+    display: none;
+    padding: 10px;
+}
+
+.responsive-section {
+    width: 100%;
+    border: 1px;
+
+}
+
+.responsive-section h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.responsive-section p {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.learn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.learn button {
+    padding: 8px 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.tv-section-responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: none;
+}
+
+.tv-section-responsive span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.tv-section-responsive h1 {
+    text-align: center;
+    line-height: 22px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.tv-section-responsive p {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.tv-section-responsive button {
+    padding: 8px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+/* girl part  */
+
+.responsive-girl-section {
+    width: 100%;
+    padding: 30px;
+    display: none;
+}
+
+.responsive-girl-section span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.responsive-girl-section h1 {
+    text-align: center;
+    line-height: 22px;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.responsive-girl-section p {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 100;
+    font-size: 12px;
+
+
+}
+
+.responsive-girl-section button {
+    padding: 8px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+/* media query section  */
+
+@media(max-width:768px) {
+    .full-size {
+        display: none;
+    }
+
+    .responsive {
+        display: block;
+    }
+
+    .hero-section {
+        height: 35vh;
+
+    }
+
+    .Text {
+        display: none;
+    }
+
+    .Text-responsive {
+        display: block;
+        height: 30vh;
+    }
+
+    .tv-section {
+        min-height: 40vh;
+    }
+
+    .camera-girl-section {
+        height: 40vh;
+    }
+
+    .card-item h1 {
+        text-align: center;
+    }
+
+    .cart {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tv-section span {
+        display: none;
+    }
+
+    .tv-section-responsive {
+        display: block;
+        height: 30vh;
+    }
+
+    .camera-girl-section span {
+        display: none;
+    }
+
+    .responsive-girl-section {
+        display: block;
+    }
+
+    .icon-footer {
+        padding: 10px 50px;
+        display: flex;
+        flex-direction: column;
+    }
+  .icon-footer span i{
+    font-size: 20px;
+
+  }
+  .icon-footer i{
+    margin-top: 10px;
+    font-size: 20px;
+
+  }
+    .email {
+        border-top: 1px solid gray;
+        width: 100%;
+        justify-content: start;
+    }
+    .email a{
+        font-size: 20px;
+    }
+
+    .support-section {
+        padding: 20px;
+        display: flex;
+        justify-content: start;
+
+
+
+    }
+
+    .since {
+        padding: 10px;
+    }
+
+    .bose-last {
+        min-height: 15vh;
+    }
+
+}
